@@ -9,7 +9,6 @@ export class createImage1604694252938 implements MigrationInterface {
         {
           name: "id",
           type: "int",
-          unsigned: true,
           isPrimary: true,
           isGenerated: true,
           generationStrategy: "increment"
